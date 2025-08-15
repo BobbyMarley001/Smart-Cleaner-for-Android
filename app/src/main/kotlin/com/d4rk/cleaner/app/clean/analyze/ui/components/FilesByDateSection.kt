@@ -1,0 +1,56 @@
+package com.d4rk.cleaner.app.clean.analyze.ui.components
+
+import android.view.View
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.d4rk.cleaner.core.utils.helpers.isProtectedAndroidDir
+import java.io.File
+import java.text.SimpleDateFormat
+import java.util.Locale
+
+@Composable
+fun FilesByDateSection(
+    modifier: Modifier,
+    filesByDate: Map<String, List<File>>,
+    fileSelectionStates: Map<File, Boolean>,
+    onFileSelectionChange: (File, Boolean) -> Unit,
+    onDateSelectionChange: (List<File>, Boolean) -> Unit,
+    originals: Set<File> = emptySet(),
+    view: View,
+) {
+    LazyColumn(
+        modifier = modifier.fillMaxSize()
+    ) {
+        val sortedDates: List<String> = filesByDate.keys.sortedByDescending { dateString ->
+            SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).parse(dateString)
+        }
+
+        sortedDates.forEach { date ->
+            val files: List<File> = filesByDate[date] ?: emptyList()
+            if (files.isNotEmpty()) {
+                item(key = date) {
+                    DateHeader(
+                        files = files,
+                        fileSelectionStates = fileSelectionStates,
+                        onFileSelectionChange = onFileSelectionChange,
+                        onDateSelectionChange = { list, checked ->
+                            onDateSelectionChange(list.filterNot { it.isProtectedAndroidDir() }, checked)
+                        },
+                        view = view
+                    )
+                }
+
+                item(key = "$date-grid") {
+                    FilesGrid(
+                        files = files,
+                        fileSelectionStates = fileSelectionStates,
+                        onFileSelectionChange = onFileSelectionChange,
+                        originals = originals,
+                    )
+                }
+            }
+        }
+    }
+}

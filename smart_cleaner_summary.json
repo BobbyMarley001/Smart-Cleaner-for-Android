@@ -1,0 +1,2099 @@
+[
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/Cleaner.kt",
+    "classes": [
+      "Cleaner"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/data/datastore/DataStore.kt",
+    "classes": [
+      "DataStore"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/extensions/ClipboardExtensions.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/extensions/UrlExtensions.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/extensions/SelectionExtensions.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/extensions/FileExtensions.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/extensions/Errors.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/constants/TimeConstants.kt",
+    "classes": [
+      "TimeConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/constants/datastore/AppDataStoreConstants.kt",
+    "classes": [
+      "AppDataStoreConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/constants/ads/AdsConstants.kt",
+    "classes": [
+      "AdsConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/constants/permissions/AppPermissionsConstants.kt",
+    "classes": [
+      "AppPermissionsConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/FileManagerHelper.kt",
+    "classes": [
+      "FileManagerHelper"
+    ],
+    "functions": [
+      "openFile",
+      "openFolderOrSettings",
+      "openFolderOrToast"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/StreakTracker.kt",
+    "classes": [
+      "StreakTracker"
+    ],
+    "functions": [
+      "initialize"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/StreakCardHelper.kt",
+    "classes": [
+      "StreakCardHelper"
+    ],
+    "functions": [
+      "observeStreak",
+      "observeStreakVisibility"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/FileGroupingHelper.kt",
+    "classes": [
+      "FileGroupingHelper"
+    ],
+    "functions": [
+      "groupFilesByDate",
+      "groupFileEntriesByDate",
+      "groupDuplicateGroupsByDate"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/AndroidDirHelper.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/DirectoryScanner.kt",
+    "classes": [
+      "DirectoryScanner"
+    ],
+    "functions": [
+      "scan"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/FileDeletionHelper.kt",
+    "classes": [
+      "FileDeletionResult",
+      "FileDeletionHelper"
+    ],
+    "functions": [
+      "deleteFiles"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/PermissionsHelper.kt",
+    "classes": [
+      "PermissionsHelper"
+    ],
+    "functions": [
+      "hasStoragePermissions",
+      "requestStoragePermissions",
+      "hasUsageAccessPermissions",
+      "requestUsageAccess",
+      "hasContactsPermissions"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/FileSizeFormatter.kt",
+    "classes": [
+      "FileSizeFormatter"
+    ],
+    "functions": [
+      "format"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/ClipboardHelper.kt",
+    "classes": [
+      "ClipboardHelper"
+    ],
+    "functions": [
+      "getClipboardText",
+      "clearClipboard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/utils/helpers/CleaningEventBus.kt",
+    "classes": [
+      "CleaningEventBus"
+    ],
+    "functions": [
+      "notifyCleaned"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/domain/repository/FileDeletionRepository.kt",
+    "classes": [
+      "FileDeletionRepository"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/domain/model/network/Errors.kt",
+    "classes": [
+      "Custom"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/ui/BaseCleanupActivity.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/work/FileCleanWorkEnqueuer.kt",
+    "classes": [
+      "FileCleanWorkEnqueuer",
+      "AlreadyRunning",
+      "Enqueued",
+      "Error"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/work/FileCleanWorkObserver.kt",
+    "classes": [],
+    "functions": [
+      "observeFileCleanWork"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/work/FileCleaner.kt",
+    "classes": [
+      "FileCleaner"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/work/WorkObserver.kt",
+    "classes": [
+      "WorkObserver"
+    ],
+    "functions": [
+      "observe"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/KoinModule.kt",
+    "classes": [],
+    "functions": [
+      "initializeKoin"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/modules/AppToolkitModule.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/modules/AppModule.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/modules/DispatchersModule.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/modules/AdsModule.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/modules/SettingsModule.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/core/di/modules/NotificationModule.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/startup/utils/interfaces/providers/AppStartupProvider.kt",
+    "classes": [
+      "AppStartupProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/onboarding/utils/constants/OnboardingKeys.kt",
+    "classes": [
+      "OnboardingKeys"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/onboarding/utils/interfaces/providers/OnboardingProvider.kt",
+    "classes": [
+      "AppOnboardingProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/onboarding/ui/tabs/StoragePermissionOnboardingTab.kt",
+    "classes": [],
+    "functions": [
+      "StoragePermissionOnboardingTab"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/notifications/CleanupNotifier.kt",
+    "classes": [
+      "CleanupNotifier"
+    ],
+    "functions": [
+      "sendNotification"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/notifications/StreakNotifier.kt",
+    "classes": [
+      "StreakNotifier"
+    ],
+    "functions": [
+      "sendNotification"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/notifications/CleanupDismissReceiver.kt",
+    "classes": [
+      "CleanupDismissReceiver"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/notifications/CleanerMessageProvider.kt",
+    "classes": [
+      "CleanerMessageProvider"
+    ],
+    "functions": [
+      "getStorageText",
+      "getTitleVariants",
+      "getRandomQuickScanTip"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/domain/usecases/ShouldShowCleanupNotificationUseCase.kt",
+    "classes": [
+      "ShouldShowCleanupNotificationUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/work/CleanupReminderScheduler.kt",
+    "classes": [
+      "CleanupReminderScheduler"
+    ],
+    "functions": [
+      "schedule"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/work/StreakReminderScheduler.kt",
+    "classes": [
+      "StreakReminderScheduler"
+    ],
+    "functions": [
+      "schedule"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/work/CleanupReminderWorker.kt",
+    "classes": [
+      "CleanupReminderWorker"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/notifications/work/StreakReminderWorker.kt",
+    "classes": [
+      "StreakReminderWorker"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppSettingsScreens.kt",
+    "classes": [
+      "AppSettingsScreens"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppAdvancedSettingsProvider.kt",
+    "classes": [
+      "AppAdvancedSettingsProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/PermissionsSettingsProvider.kt",
+    "classes": [
+      "PermissionsSettingsProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppBuildInfoProvider.kt",
+    "classes": [
+      "AppBuildInfoProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppPrivacySettingsProvider.kt",
+    "classes": [
+      "AppPrivacySettingsProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppDisplaySettingsProvider.kt",
+    "classes": [
+      "AppDisplaySettingsProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppSettingsProvider.kt",
+    "classes": [
+      "AppSettingsProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/providers/AppAboutSettingsProvider.kt",
+    "classes": [
+      "AppAboutSettingsProvider"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/settings/utils/constants/SettingsConstants.kt",
+    "classes": [
+      "SettingsConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/cleaning/utils/constants/ExtensionsConstants.kt",
+    "classes": [
+      "ExtensionsConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/settings/cleaning/ui/CleaningSettingsList.kt",
+    "classes": [],
+    "functions": [
+      "CleaningSettingsList"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/link/domain/UrlCleaner.kt",
+    "classes": [
+      "UrlCleaner"
+    ],
+    "functions": [
+      "clean"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/link/ui/LinkCleanerActivity.kt",
+    "classes": [
+      "LinkCleanerActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/dashboard/ui/ScannerDashboardScreen.kt",
+    "classes": [
+      "Card",
+      "Ad"
+    ],
+    "functions": [
+      "ScannerDashboardScreen",
+      "chooseAdsConfigFor"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/dashboard/ui/DashboardTransitions.kt",
+    "classes": [
+      "DashboardTransitions"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/dashboard/ui/components/DashboardActionCard.kt",
+    "classes": [],
+    "functions": [
+      "DashboardActionCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/data/ScannerRepositoryImpl.kt",
+    "classes": [
+      "ScannerRepositoryImpl"
+    ],
+    "functions": [
+      "fileType"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/utils/utils/constants/api/ApiConstants.kt",
+    "classes": [
+      "ApiHost",
+      "ApiEnvironments",
+      "ApiPaths",
+      "ApiConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/utils/helpers/PdfUtils.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/utils/helpers/ImageUtils.kt",
+    "classes": [],
+    "functions": [
+      "getFileIcon"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/utils/helpers/FilePreviewHelper.kt",
+    "classes": [
+      "FilePreviewHelper",
+      "Directory",
+      "Image",
+      "Video",
+      "Apk"
+    ],
+    "functions": [
+      "onTrimMemory",
+      "getPreviewType",
+      "Preview"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/utils/helpers/WhatsAppUtils.kt",
+    "classes": [],
+    "functions": [
+      "getWhatsAppMediaDirs",
+      "getWhatsAppMediaSummary",
+      "list"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/utils/helpers/StorageUtils.kt",
+    "classes": [
+      "StorageUtils"
+    ],
+    "functions": [
+      "getStorageInfo"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/data/model/ui/CleaningType.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/data/model/ui/CleaningState.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/data/model/ui/WhatsAppMediaSummary.kt",
+    "classes": [
+      "WhatsAppMediaSummary"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/data/model/ui/FileEntry.kt",
+    "classes": [
+      "FileEntry"
+    ],
+    "functions": [
+      "toFile"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/data/model/ui/PromotedApp.kt",
+    "classes": [
+      "PromotedApp"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/data/model/ui/UiScannerModel.kt",
+    "classes": [
+      "UiScannerModel",
+      "UiAnalyzeModel",
+      "FileTypesData"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/GetEmptyFoldersUseCase.kt",
+    "classes": [
+      "GetEmptyFoldersUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/GetFileTypesUseCase.kt",
+    "classes": [
+      "GetFileTypesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/GetLargestFilesUseCase.kt",
+    "classes": [
+      "GetLargestFilesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/GetPromotedAppUseCase.kt",
+    "classes": [
+      "GetPromotedAppUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/GetDuplicatesUseCase.kt",
+    "classes": [
+      "GetDuplicatesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/UpdateTrashSizeUseCase.kt",
+    "classes": [
+      "UpdateTrashSizeUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/GetStorageInfoUseCase.kt",
+    "classes": [
+      "GetStorageInfoUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/DeleteFilesUseCase.kt",
+    "classes": [
+      "DeleteFilesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/usecases/AnalyzeFilesUseCase.kt",
+    "classes": [
+      "AnalyzeFilesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/operations/FileAnalyzer.kt",
+    "classes": [
+      "FileAnalyzer"
+    ],
+    "functions": [
+      "computeGroupedFiles"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/operations/CleaningManager.kt",
+    "classes": [
+      "CleaningManager"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/actions/ScannerEvent.kt",
+    "classes": [
+      "LoadInitialData",
+      "AnalyzeFiles",
+      "RefreshData",
+      "DeleteFiles",
+      "MoveToTrash"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/actions/ScannerAction.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/domain/interface/ScannerRepositoryInterface.kt",
+    "classes": [
+      "ScannerRepositoryInterface"
+    ],
+    "functions": [
+      "getAllFiles",
+      "getEmptyFolders"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/CleanOperationHandler.kt",
+    "classes": [
+      "CleanOperationHandler"
+    ],
+    "functions": [
+      "analyzeFiles",
+      "cleanFiles",
+      "moveToTrash",
+      "onCleaningFailed",
+      "resetAfterError"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/StreakHandler.kt",
+    "classes": [
+      "StreakHandler"
+    ],
+    "functions": [
+      "setHideStreakDialogVisibility",
+      "hideStreakForNow",
+      "hideStreakPermanently"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/ClipboardHandler.kt",
+    "classes": [
+      "ClipboardHandler"
+    ],
+    "functions": [
+      "refresh",
+      "onClipboardClear",
+      "unregister"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/ScannerViewModel.kt",
+    "classes": [
+      "ScannerViewModel"
+    ],
+    "functions": [
+      "onCloseAnalyzeComposable",
+      "onFileSelectionChange",
+      "toggleSelectAllFiles"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/ScannerScreen.kt",
+    "classes": [],
+    "functions": [
+      "ScannerScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/ApkCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "ApkCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/ClipboardCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "ClipboardCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/ImageOptimizerCard.kt",
+    "classes": [],
+    "functions": [
+      "ImageOptimizerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/WeeklyCleanStreakCard.kt",
+    "classes": [],
+    "functions": [
+      "WeeklyCleanStreakCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/FilePreviewCard.kt",
+    "classes": [],
+    "functions": [
+      "FilePreviewCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/FileListItem.kt",
+    "classes": [],
+    "functions": [
+      "FileListItem"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/CacheCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "CacheCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/WhatsAppCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "WhatsAppCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/EmptyFolderCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "EmptyFolderCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/QuickScanSummaryCard.kt",
+    "classes": [],
+    "functions": [
+      "QuickScanSummaryCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/TwoRowButtons.kt",
+    "classes": [],
+    "functions": [
+      "TwoRowButtons"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/ProgressBar.kt",
+    "classes": [],
+    "functions": [
+      "StorageProgressButton",
+      "StorageProgressBar"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/LinkCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "LinkCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/LargeFilesCard.kt",
+    "classes": [],
+    "functions": [
+      "LargeFilesCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/SystemStorageManagerCard.kt",
+    "classes": [],
+    "functions": [
+      "SystemStorageManagerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/PromotedAppCard.kt",
+    "classes": [],
+    "functions": [
+      "PromotedAppCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/ui/components/dialogs/HideStreakAlertDialog.kt",
+    "classes": [],
+    "functions": [
+      "HideStreakAlertDialog"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/scanner/work/FileCleanupWorker.kt",
+    "classes": [
+      "FileCleanupWorker"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/largefiles/domain/data/model/ui/UiLargeFilesModel.kt",
+    "classes": [
+      "UiLargeFilesModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/largefiles/domain/actions/LargeFilesAction.kt",
+    "classes": [
+      "ShowSnackbar"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/largefiles/domain/actions/LargeFilesEvent.kt",
+    "classes": [
+      "OnFileSelectionChange"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/largefiles/ui/LargeFilesScreen.kt",
+    "classes": [],
+    "functions": [
+      "LargeFilesScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/largefiles/ui/LargeFilesActivity.kt",
+    "classes": [
+      "LargeFilesActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/largefiles/ui/LargeFilesViewModel.kt",
+    "classes": [
+      "LargeFilesViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/data/ContactsRepositoryImpl.kt",
+    "classes": [
+      "ContactsRepositoryImpl"
+    ],
+    "functions": [
+      "find",
+      "union",
+      "areDuplicates"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/data/ContactsRepository.kt",
+    "classes": [
+      "ContactsRepository"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/data/model/RawContactInfo.kt",
+    "classes": [
+      "RawContactInfo"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/data/model/UiContactsCleanerModel.kt",
+    "classes": [
+      "DuplicateContactGroup",
+      "UiContactsCleanerModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/usecases/DeleteContactsUseCase.kt",
+    "classes": [
+      "DeleteContactsUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/usecases/GetDuplicateContactsUseCase.kt",
+    "classes": [
+      "GetDuplicateContactsUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/usecases/DeleteOlderContactsUseCase.kt",
+    "classes": [
+      "DeleteOlderContactsUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/usecases/MergeContactsUseCase.kt",
+    "classes": [
+      "MergeContactsUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/actions/ContactsCleanerEvent.kt",
+    "classes": [
+      "DeleteOlder",
+      "MergeAll",
+      "ToggleGroupSelection",
+      "ToggleContactSelection"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/domain/actions/ContactsCleanerAction.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/ContactsCleanerViewModel.kt",
+    "classes": [
+      "ContactsCleanerViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/ContactsCleanerScreen.kt",
+    "classes": [],
+    "functions": [
+      "ContactsCleanerScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/ContactsCleanerActivity.kt",
+    "classes": [
+      "ContactsCleanerActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/components/ContactGroupItem.kt",
+    "classes": [],
+    "functions": [
+      "ContactGroupItem"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/components/ContactsCleanerCard.kt",
+    "classes": [],
+    "functions": [
+      "ContactsCleanerCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/components/ContactDetailRow.kt",
+    "classes": [],
+    "functions": [
+      "ContactDetailRow"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/components/dialogs/PermissionRationaleDialog.kt",
+    "classes": [],
+    "functions": [
+      "PermissionRationaleDialog"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/components/states/ContactsErrorState.kt",
+    "classes": [],
+    "functions": [
+      "ContactsErrorState"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/contacts/ui/components/states/ContactsEmptyState.kt",
+    "classes": [],
+    "functions": [
+      "ContactsEmptyState"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/nofilesfound/ui/NoFilesFoundScreen.kt",
+    "classes": [],
+    "functions": [
+      "NoFilesFoundScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/domain/data/model/ui/UiTrashModel.kt",
+    "classes": [
+      "UiTrashModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/domain/usecases/GetTrashFilesUseCase.kt",
+    "classes": [
+      "GetTrashFilesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/domain/usecases/RestoreFromTrashUseCase.kt",
+    "classes": [
+      "RestoreFromTrashUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/domain/usecases/GetTrashSizeUseCase.kt",
+    "classes": [
+      "GetTrashSizeUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/domain/actions/TrashAction.kt",
+    "classes": [
+      "ShowSnackbar"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/domain/actions/TrashEvent.kt",
+    "classes": [
+      "OnFileSelectionChange"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/ui/TrashViewModel.kt",
+    "classes": [
+      "TrashViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/ui/TrashScreen.kt",
+    "classes": [],
+    "functions": [
+      "TrashScreen",
+      "TrashItemsList"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/trash/ui/TrashActivity.kt",
+    "classes": [
+      "TrashActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/utils/constants/WhatsAppMediaConstants.kt",
+    "classes": [
+      "WhatsAppMediaConstants"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/utils/helpers/FileOpener.kt",
+    "classes": [],
+    "functions": [
+      "openFile"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/domain/actions/WhatsAppDetailsEvent.kt",
+    "classes": [
+      "LoadFiles",
+      "ApplySort"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/domain/actions/WhatsAppDetailsAction.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/domain/model/UiWhatsAppDetailsModel.kt",
+    "classes": [
+      "UiWhatsAppDetailsModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/ui/WhatsAppDetailsActivity.kt",
+    "classes": [
+      "WhatsAppDetailsActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/ui/WhatsAppDetailsScreen.kt",
+    "classes": [],
+    "functions": [
+      "DetailsScreen",
+      "DetailsScreenContent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/ui/WhatsAppDetailsViewModel.kt",
+    "classes": [
+      "DetailsViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/ui/components/CustomTabLayout.kt",
+    "classes": [],
+    "functions": [
+      "CustomTabLayout"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/ui/components/DetailsStatusRow.kt",
+    "classes": [],
+    "functions": [
+      "DetailsStatusRow"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/details/ui/components/dialogs/SortAlertDialog.kt",
+    "classes": [],
+    "functions": [
+      "SortAlertDialog"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/data/WhatsAppCleanerRepositoryImpl.kt",
+    "classes": [
+      "WhatsAppCleanerRepositoryImpl"
+    ],
+    "functions": [
+      "collect"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/usecases/GetWhatsAppMediaFilesUseCase.kt",
+    "classes": [
+      "GetWhatsAppMediaFilesUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/usecases/GetWhatsAppMediaSummaryUseCase.kt",
+    "classes": [
+      "GetWhatsAppMediaSummaryUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/repository/WhatsAppCleanerRepository.kt",
+    "classes": [
+      "WhatsAppCleanerRepository"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/actions/WhatsAppCleanerEvent.kt",
+    "classes": [
+      "DeleteSelected"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/actions/WhatsAppCleanerAction.kt",
+    "classes": [
+      "ShowSnackbar"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/model/DirectorySummary.kt",
+    "classes": [
+      "DirectorySummary"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/model/DeleteResult.kt",
+    "classes": [
+      "DeleteResult"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/model/WhatsAppMediaSummary.kt",
+    "classes": [
+      "WhatsAppMediaSummary",
+      "UiWhatsAppCleanerModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/domain/model/DirectoryItem.kt",
+    "classes": [
+      "DirectoryItem"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/WhatsAppCleanerSummaryActivity.kt",
+    "classes": [
+      "WhatsAppCleanerActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/WhatsappCleanerSummaryViewModel.kt",
+    "classes": [
+      "WhatsappCleanerSummaryViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/WhatsappCleanerSummaryScreen.kt",
+    "classes": [],
+    "functions": [
+      "WhatsappCleanerSummaryScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/components/WhatsAppEmptyState.kt",
+    "classes": [],
+    "functions": [
+      "WhatsAppEmptyState"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/components/CleanerInfoCard.kt",
+    "classes": [],
+    "functions": [
+      "CleanerInfoCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/components/DirectoryCard.kt",
+    "classes": [],
+    "functions": [
+      "DirectoryCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/components/CleanerProgressIndicator.kt",
+    "classes": [],
+    "functions": [
+      "CleanerProgressIndicator"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/whatsapp/summary/ui/components/DirectoryGrid.kt",
+    "classes": [],
+    "functions": [
+      "DirectoryGrid"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/utils/helpers/TimeHelper.kt",
+    "classes": [
+      "TimeHelper"
+    ],
+    "functions": [
+      "formatDate"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/AnalyzeScreen.kt",
+    "classes": [],
+    "functions": [
+      "AnalyzeScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/FilesGrid.kt",
+    "classes": [],
+    "functions": [
+      "FilesGrid"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/StatusRowSelectAll.kt",
+    "classes": [],
+    "functions": [
+      "StatusRowSelectAll"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/FileCard.kt",
+    "classes": [],
+    "functions": [
+      "FileCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/DuplicateGroupsSection.kt",
+    "classes": [],
+    "functions": [
+      "DuplicateGroupsSection"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/DateHeader.kt",
+    "classes": [],
+    "functions": [
+      "DateHeader"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/FilesByDateSection.kt",
+    "classes": [],
+    "functions": [
+      "FilesByDateSection"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/SelectAllComposable.kt",
+    "classes": [],
+    "functions": [
+      "SelectAllComposable"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/CleaningAnimationScreen.kt",
+    "classes": [],
+    "functions": [
+      "CleaningAnimationScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/SelectAllTransitions.kt",
+    "classes": [
+      "SelectAllTransitions"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/tabs/TabsContent.kt",
+    "classes": [],
+    "functions": [
+      "TabsContent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/dialogs/DeleteOrTrashConfirmation.kt",
+    "classes": [],
+    "functions": [
+      "DeleteOrTrashConfirmation"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/analyze/ui/components/dialogs/GlobalSelectAllWarningDialog.kt",
+    "classes": [],
+    "functions": [
+      "GlobalSelectAllWarningDialog"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/clipboard/ui/ClipboardCleanerActivity.kt",
+    "classes": [
+      "ClipboardCleanerActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/clipboard/services/ClipboardNotificationListenerService.kt",
+    "classes": [
+      "ClipboardNotificationListenerService"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/data/MemoryRepositoryImpl.kt",
+    "classes": [
+      "MemoryRepositoryImpl"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/data/model/RamInfo.kt",
+    "classes": [
+      "RamInfo"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/data/model/InternalStorageInfo.kt",
+    "classes": [
+      "InternalStorageInfo"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/data/model/StorageInfo.kt",
+    "classes": [
+      "StorageInfo"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/data/model/ui/UiMemoryManagerScreen.kt",
+    "classes": [
+      "UiMemoryManagerScreen"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/usecases/GetStorageInfoUseCase.kt",
+    "classes": [
+      "GetStorageInfoUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/usecases/GetRamInfoUseCase.kt",
+    "classes": [
+      "GetRamInfoUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/actions/MemoryEvent.kt",
+    "classes": [
+      "LoadMemoryData",
+      "ToggleListExpanded"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/actions/MemoryAction.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/domain/interfaces/MemoryRepository.kt",
+    "classes": [
+      "MemoryRepository"
+    ],
+    "functions": [
+      "getRamInfo"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/MemoryManagerViewModel.kt",
+    "classes": [
+      "MemoryManagerViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/MemoryManagerScreen.kt",
+    "classes": [],
+    "functions": [
+      "MemoryManagerComposable",
+      "MemoryManagerScreenContent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/components/StorageInfoCard.kt",
+    "classes": [],
+    "functions": [
+      "StorageInfoCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/components/StorageBreakdownGrid.kt",
+    "classes": [],
+    "functions": [
+      "StorageBreakdownGrid"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/components/StorageInfoText.kt",
+    "classes": [],
+    "functions": [
+      "StorageInfoText"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/components/MemoryManagerShimmer.kt",
+    "classes": [],
+    "functions": [
+      "MemoryManagerShimmer"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/clean/memory/ui/components/RamInfoCard.kt",
+    "classes": [],
+    "functions": [
+      "RamInfoCard"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/auto/AutoCleanScheduler.kt",
+    "classes": [
+      "AutoCleanScheduler"
+    ],
+    "functions": [
+      "cancel"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/auto/AutoCleanWorker.kt",
+    "classes": [
+      "AutoCleanWorker"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/core/ui/components/GridCardModel.kt",
+    "classes": [
+      "GridCardModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/core/ui/components/GroupedGridLayout.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/core/ui/components/GridCardItem.kt",
+    "classes": [],
+    "functions": [
+      "GridCardItem",
+      "GridCardItem"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/core/ui/theme/GroupedGridStyle.kt",
+    "classes": [
+      "GroupedGridStyle"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/data/ApkFileManagerImpl.kt",
+    "classes": [
+      "ApkFileManagerImpl"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/data/PackageManagerFacadeImpl.kt",
+    "classes": [
+      "PackageManagerFacadeImpl"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/data/AppPackageManagerImpl.kt",
+    "classes": [
+      "AppPackageManagerImpl"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/data/AppUsageStatsManagerImpl.kt",
+    "classes": [
+      "AppUsageStatsManagerImpl"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/data/model/ApkInfo.kt",
+    "classes": [
+      "ApkInfo"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/data/model/AppManagerItem.kt",
+    "classes": [
+      "InstalledApp",
+      "ApkFile"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/data/model/ui/UiAppManagerModel.kt",
+    "classes": [
+      "UiAppManagerModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/GetApkFilesFromStorageUseCase.kt",
+    "classes": [
+      "GetApkFilesFromStorageUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/ShareAppUseCase.kt",
+    "classes": [
+      "ShareAppUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/ShareApkUseCase.kt",
+    "classes": [
+      "ShareApkUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/UninstallAppUseCase.kt",
+    "classes": [
+      "UninstallAppUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/GetAppsLastUsedUseCase.kt",
+    "classes": [
+      "GetAppsLastUsedUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/GetInstalledAppsUseCase.kt",
+    "classes": [
+      "GetInstalledAppsUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/InstallApkUseCase.kt",
+    "classes": [
+      "InstallApkUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/usecases/OpenAppInfoUseCase.kt",
+    "classes": [
+      "OpenAppInfoUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/actions/AppManagerAction.kt",
+    "classes": [
+      "LaunchShareIntent"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/actions/AppManagerEvent.kt",
+    "classes": [
+      "LoadAppData",
+      "ShareItem"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/AppInfoOpener.kt",
+    "classes": [
+      "AppInfoOpener"
+    ],
+    "functions": [
+      "openAppInfo"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/ApkSharer.kt",
+    "classes": [
+      "ApkSharer"
+    ],
+    "functions": [
+      "prepareShareIntent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/AppSharer.kt",
+    "classes": [
+      "AppSharer"
+    ],
+    "functions": [
+      "shareApp"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/AppUsageStatsManager.kt",
+    "classes": [
+      "AppUsageStatsManager"
+    ],
+    "functions": [
+      "getAppsLastUsed"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/ApkFileManager.kt",
+    "classes": [
+      "ApkFileManager"
+    ],
+    "functions": [
+      "getApkFilesFromStorage"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/ApkInstaller.kt",
+    "classes": [
+      "ApkInstaller"
+    ],
+    "functions": [
+      "installApk"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/AppUninstaller.kt",
+    "classes": [
+      "AppUninstaller"
+    ],
+    "functions": [
+      "uninstallApp"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/domain/interfaces/PackageManagerFacade.kt",
+    "classes": [
+      "PackageManagerFacade"
+    ],
+    "functions": [
+      "getInstalledApplications"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/AppManagerViewModel.kt",
+    "classes": [
+      "AppManagerViewModel"
+    ],
+    "functions": [
+      "onSearchQueryChange",
+      "installApk",
+      "openAppInfo",
+      "uninstallApp"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/AppManagerScreen.kt",
+    "classes": [
+      "AppManagerBadgeTransitions"
+    ],
+    "functions": [
+      "AppManagerScreen",
+      "AppManagerScreenContent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/ApkItem.kt",
+    "classes": [],
+    "functions": [
+      "ApkItem"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/AppItemComposable.kt",
+    "classes": [],
+    "functions": [
+      "AppItemComposable"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/IconLoadingPlaceholder.kt",
+    "classes": [],
+    "functions": [
+      "IconLoadingPlaceholder"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/ShimmerLoadingScreen.kt",
+    "classes": [],
+    "functions": [
+      "ShimmerLoadingScreen"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/AppItemPlaceholder.kt",
+    "classes": [],
+    "functions": [
+      "AppItemPlaceholder"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/tabs/AppsTab.kt",
+    "classes": [],
+    "functions": [
+      "AppsTab"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/apps/manager/ui/components/tabs/ApksTab.kt",
+    "classes": [],
+    "functions": [
+      "ApksTab"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/utils/constants/NavigationRoutes.kt",
+    "classes": [
+      "NavigationRoutes"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/domain/actions/MainAction.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/domain/actions/MainEvent.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/domain/model/UiMainScreen.kt",
+    "classes": [
+      "UiMainScreen"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/MainActivity.kt",
+    "classes": [
+      "MainActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/MainScreen.kt",
+    "classes": [],
+    "functions": [
+      "MainScreen",
+      "MainScaffoldContent",
+      "MainScaffoldTabletContent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/MainViewModel.kt",
+    "classes": [
+      "MainViewModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/components/navigation/CleanerTopAppBar.kt",
+    "classes": [
+      "TopAppBarTransitions"
+    ],
+    "functions": [
+      "CleanerTopAppBar"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/components/navigation/NavigationDrawerItemContent.kt",
+    "classes": [],
+    "functions": [
+      "NavigationDrawerItemContent"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/components/navigation/AppNavigationHost.kt",
+    "classes": [],
+    "functions": [
+      "AppNavigationHost",
+      "handleNavigationItemClick"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/main/ui/components/navigation/NavigationDrawer.kt",
+    "classes": [],
+    "functions": [
+      "NavigationDrawer"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/picker/domain/data/model/ui/UiImagePickerModel.kt",
+    "classes": [
+      "UiImagePickerModel"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/picker/domain/usecases/ShowFabUseCase.kt",
+    "classes": [
+      "ShowFabUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/picker/ui/ImagePickerScreen.kt",
+    "classes": [],
+    "functions": [
+      "ImagePickerComposable"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/picker/ui/ImagePickerViewModel.kt",
+    "classes": [
+      "ImagePickerViewModel"
+    ],
+    "functions": [
+      "setSelectedImageUri"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/picker/ui/ImagePickerActivity.kt",
+    "classes": [
+      "ImagePickerActivity"
+    ],
+    "functions": [
+      "selectImage"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/utils/ImageOptimizerUtils.kt",
+    "classes": [],
+    "functions": [
+      "getCompressionLevelFromSliderValue"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/utils/ImageHashUtils.kt",
+    "classes": [
+      "ImageHashUtils"
+    ],
+    "functions": [
+      "perceptualHash"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/domain/data/model/CompressionLevel.kt",
+    "classes": [],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/domain/data/model/ui/UiImageOptimizerState.kt",
+    "classes": [
+      "UiImageOptimizerState"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/domain/usecases/CompressImageUseCase.kt",
+    "classes": [
+      "CompressImageUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/domain/usecases/GetRealFileFromUriUseCase.kt",
+    "classes": [
+      "GetRealFileFromUriUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/domain/usecases/GetOptimizedDestinationFileUseCase.kt",
+    "classes": [
+      "GetOptimizedDestinationFileUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/domain/usecases/GetImageDimensionsUseCase.kt",
+    "classes": [
+      "GetImageDimensionsUseCase"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/ui/ImageOptimizerScreen.kt",
+    "classes": [],
+    "functions": [
+      "ImageOptimizerScreen",
+      "ImageDisplay",
+      "OptimizerButtons"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/ui/ImageOptimizerViewModel.kt",
+    "classes": [
+      "ImageOptimizerViewModel"
+    ],
+    "functions": [
+      "setCurrentTab",
+      "optimizeImage",
+      "setQuickCompressValue",
+      "setFileSize",
+      "setManualCompressSettings"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/ui/ImageOptimizerActivity.kt",
+    "classes": [
+      "ImageOptimizerActivity"
+    ],
+    "functions": []
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/ui/components/tabs/QuickCompressTab.kt",
+    "classes": [],
+    "functions": [
+      "QuickCompressTab"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/ui/components/tabs/ManualModeTab.kt",
+    "classes": [],
+    "functions": [
+      "ManualModeTab"
+    ]
+  },
+  {
+    "path": "app/src/main/kotlin/com/d4rk/cleaner/app/images/compressor/ui/components/tabs/FileSizeTab.kt",
+    "classes": [],
+    "functions": [
+      "FileSizeTab"
+    ]
+  }
+]

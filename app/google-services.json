@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "880841349152",
+    "project_id": "smart-cleaner-for-android",
+    "storage_bucket": "smart-cleaner-for-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880841349152:android:f94ce221e70a946afd8445",
+        "android_client_info": {
+          "package_name": "com.d4rk.cleaner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyComZDQ1Ok_uxSeOmszLgAWTsOctm3tibg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "admob_app_id": "ca-app-pub-5294151573817700~3549716864"
+    }
+  ],
+  "configuration_version": "1"
+}
